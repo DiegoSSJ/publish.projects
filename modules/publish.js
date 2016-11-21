@@ -28,7 +28,8 @@ Publish.prototype.publishProjects = function (location, dest) {
           stderr: build.solutionConfiguration.msbuild.showError,
           stdout: build.solutionConfiguration.msbuild.showStandardOutput,
           verbosity: build.solutionConfiguration.msbuild.verbosity,
-          maxcpucount: 0,
+          maxcpucount: 1,
+		  nodeReuse: false,
           toolsVersion: build.solutionConfiguration.msbuild.toolsversion,
           properties: {
             DeployOnBuild: "true",
