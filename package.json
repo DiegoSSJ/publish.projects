@@ -1,6 +1,6 @@
 {
-  "name": "@pentia/publish-projects",
-  "version": "0.1.7",
+  "name": "diegossj-publish-projects",
+  "version": "0.1.8",
   "private": false,
   "description": "runs publish on csproj files via msbuild",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PentiaLabs/publish.projects"
+    "url": "https://github.com/DiegoSSJ/publish.projects"
   },
   "maintainers": [
     "Pentia <dev@pentia.dk> (http://www.pentia.dk)"
@@ -40,10 +40,11 @@
     "gulp-rimraf": "^0.2.0"
   },
   "bugs": {
-    "url": "https://github.com/PentiaLabs/publish.projects/issues"
+    "url": "https://github.com/DiegoSSJ/publish.projects/issues"
   },
-  "homepage": "https://github.com/PentiaLabs/publish.projects#readme",
+  "homepage": "https://github.com/DiegoSSJ/publish.projects#readme",
   "main": "gulpfile.js",
   "author": "Emil Klein <eok@pentia.dk>",
+  "contributors":  "Diego Saavedra San Juan <diego.saavedra.san.juan@liu.se>",
   "license": "ISC"
 }
